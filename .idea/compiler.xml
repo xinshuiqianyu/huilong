@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="huilong-api-error-handing" />
+        <module name="huilong-interview-multithreading" />
+        <module name="huilong-interview-designpatterns" />
+        <module name="huilong-interview-design_patterns" />
+        <module name="huilong-interview-algorithm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="huilong-interview-designpatterns" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="huilong-api-error-handing" options="-parameters" />
+      <module name="huilong-interview" options="-parameters" />
+      <module name="huilong-interview-algorithm" options="-parameters" />
+      <module name="huilong-interview-design_patterns" options="-parameters" />
+      <module name="huilong-interview-designpatterns" options="-parameters" />
+      <module name="huilong-interview-multithreading" options="-parameters" />
+    </option>
+  </component>
+</project>
