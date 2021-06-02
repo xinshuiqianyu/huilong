@@ -11,7 +11,7 @@
     <modules>
         <module>huilong-api-error-handing</module>
         <module>huilong-interview</module>
-        <module>huilong-interview-designpatterns</module>
+        <module>huilong-threadpool-spring-boot-starter</module>
     </modules>
 
     <properties>

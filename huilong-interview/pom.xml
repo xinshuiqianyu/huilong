@@ -14,7 +14,6 @@
     <modules>
         <module>huilong-interview-multithreading</module>
         <module>huilong-interview-algorithm</module>
-        <module>huilong-interview-design_patterns</module>
     </modules>
 
 
